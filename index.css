@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.center-box {
+  position: relative;
+  top: 30vh;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #00f2ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.auth-box {
+  margin-top: 20vh;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+.dashboard {
+  margin-top: 15vh;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
